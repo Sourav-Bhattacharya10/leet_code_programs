@@ -1,0 +1,11 @@
+[package]
+name = "leet_code_programs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+
+[[bin]]
+name = "main2"
+path = "src/392_is_subsequence.rs"

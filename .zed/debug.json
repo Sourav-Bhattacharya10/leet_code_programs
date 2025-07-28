@@ -1,0 +1,27 @@
+// Project-local debug tasks
+//
+// For more documentation on how to configure debug tasks,
+// see: https://zed.dev/docs/debugger
+[
+  {
+    "label": "Build & Debug Rust binary hands_on",
+    "build": {
+      "command": "cargo",
+      "args": ["build"]
+    },
+    "args": ["pending", "washing"],
+    "program": "$ZED_WORKTREE_ROOT/target/debug/hands_on",
+    "request": "launch",
+    "adapter": "CodeLLDB" // GDB is available on non arm macs as well as linux
+  },
+  {
+    "label": "Build & Debug Rust binary main2",
+    "build": {
+      "command": "cargo",
+      "args": ["build"]
+    },
+    "program": "$ZED_WORKTREE_ROOT/target/debug/jumping_on_clouds",
+    "request": "launch",
+    "adapter": "CodeLLDB" // GDB is available on non arm macs as well as linux
+  }
+]
