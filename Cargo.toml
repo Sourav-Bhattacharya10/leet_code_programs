@@ -8,4 +8,4 @@ edition = "2024"
 
 [[bin]]
 name = "main2"
-path = "src/392_is_subsequence.rs"
+path = "src/6_zigzag_conversion.rs"
