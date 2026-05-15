@@ -1,71 +1,12 @@
 {
     "configurations": [
         {
-            "type": "cppvsdbg",
-            "request": "launch",
-            "name": "Windows - cargo run -p hands_on",
-            "cwd": "${workspaceFolder}",
-            "program": "${workspaceFolder}\\target\\debug\\hands_on.exe",
-            "environment": [
-                {
-                    "name": "RUST_BACKTRACE",
-                    "value": "short"
-                },
-                {
-                    "name": "RUSTC_TOOLCHAIN",
-                    "value": "C:\\Users\\soura\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc"
-                }
-            ],
-            "args": [],
-            "sourceFileMap": {},
-        },
-        {
-            "name": "Ubuntu - cargo run -p hands_on",
-            "type": "cppdbg",
-            "request": "launch",
-            "program": "${workspaceFolder}/target/debug/hands_on",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                },
-                {
-                    "description": "Set Disassembly Flavor to Intel",
-                    "text": "-gdb-set disassembly-flavor intel",
-                    "ignoreFailures": true
-                }
-            ]
-        },
-        {
             "name": "Ubuntu - cargo run -p main2",
-            "type": "cppdbg",
+            "type": "lldb",
             "request": "launch",
             "program": "${workspaceFolder}/target/debug/main2",
             "args": [],
-            "stopAtEntry": false,
             "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "gdb",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                },
-                {
-                    "description": "Set Disassembly Flavor to Intel",
-                    "text": "-gdb-set disassembly-flavor intel",
-                    "ignoreFailures": true
-                }
-            ]
         },
         {
             "type": "cppvsdbg", 

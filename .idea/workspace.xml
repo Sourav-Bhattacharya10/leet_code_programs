@@ -4,22 +4,22 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="CargoProjects">
-    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml">
+      <package file="$PROJECT_DIR$">
+        <feature name="default" enabled="true" />
+      </package>
+    </cargoProject>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08e6392c-0f5f-4959-b7ac-1e00de90daed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/hands_on.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/to_uppercase.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />  <!-- make change here -->
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -60,20 +60,25 @@
   "keyToString": {
     "Cargo.Run hands_on.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.rust.reset.selective.auto.import": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/souravbhattacharya/Documents/Zed_Projects/hands_on",
+    "last_opened_file_path": "/run/media/souravbhattacharya/38c52b45-51f2-48ac-b8d5-6f0a14a4c54f/souravbhattacharya/Documents/Zed_Projects/Rust_Projects/leet_code_programs",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
     "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "actions.on.save"
+    "settings.editor.selected.configurable": "actions.on.save",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RunManager" selected="Cargo.Run hands_on">
     <configuration name="Run hands_on" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="command" value="run --package hands_on --bin hands_on" />  <!-- make change here -->
+      <option name="command" value="run --bin main2" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
       <option name="emulateTerminal" value="true" />
@@ -106,6 +111,10 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Cargo.Run hands_on" />
+      <item itemvalue="Cargo.Test hands_on" />
+    </list>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
@@ -122,6 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748705917381</updated>
       <workItem from="1748705918614" duration="3573000" />
+      <workItem from="1778860814876" duration="167000" />
     </task>
     <servers />
   </component>
