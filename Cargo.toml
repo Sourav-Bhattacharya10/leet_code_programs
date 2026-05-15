@@ -5,7 +5,6 @@ edition = "2024"
 
 [dependencies]
 
-
 [[bin]]
 name = "main2"
-path = "src/6_zigzag_conversion.rs"
+path = "src/3_longest_non_repeating_substring.rs"

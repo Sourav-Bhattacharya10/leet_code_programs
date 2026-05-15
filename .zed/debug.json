@@ -4,24 +4,23 @@
 // see: https://zed.dev/docs/debugger
 [
   {
-    "label": "Build & Debug Rust binary hands_on",
+    "label": "Build & Debug Rust binary leet_code_programs",
     "build": {
       "command": "cargo",
-      "args": ["build"]
+      "args": ["build"],
     },
-    "args": ["pending", "washing"],
-    "program": "$ZED_WORKTREE_ROOT/target/debug/hands_on",
+    "program": "$ZED_WORKTREE_ROOT/target/debug/leet_code_programs",
     "request": "launch",
-    "adapter": "CodeLLDB" // GDB is available on non arm macs as well as linux
+    "adapter": "CodeLLDB", // GDB is available on non arm macs as well as linux
   },
   {
     "label": "Build & Debug Rust binary main2",
     "build": {
       "command": "cargo",
-      "args": ["build"]
+      "args": ["build"],
     },
-    "program": "$ZED_WORKTREE_ROOT/target/debug/jumping_on_clouds",
+    "program": "$ZED_WORKTREE_ROOT/target/debug/main2",
     "request": "launch",
-    "adapter": "CodeLLDB" // GDB is available on non arm macs as well as linux
-  }
+    "adapter": "CodeLLDB", // GDB is available on non arm macs as well as linux
+  },
 ]
