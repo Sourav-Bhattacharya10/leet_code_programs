@@ -7,4 +7,4 @@ edition = "2024"
 
 [[bin]]
 name = "main2"
-path = "src/3_longest_non_repeating_substring.rs"
+path = "src/9_palindrome_numbers.rs"
