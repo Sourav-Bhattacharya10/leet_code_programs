@@ -17,7 +17,7 @@ impl Node {
         if let Some(ref mut next_node) = self.next {
             next_node.get_last_node()
         } else {
-            return self;
+            self
         }
     }
 

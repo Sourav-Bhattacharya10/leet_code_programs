@@ -50,26 +50,43 @@ impl Solution {
         let mut stack: Vec<char> = Vec::new();
 
         for ch in s.chars() {
-            if ch == ')' && stack.ends_with(&['(']) {
-                stack.pop();
-            } else if ch == '}' && stack.ends_with(&['{']) {
-                stack.pop();
-            } else if ch == ']' && stack.ends_with(&['[']) {
-                stack.pop();
-            } else {
-                stack.push(ch);
+            match ch {
+                '(' | '{' | '[' => {
+                    stack.push(ch);
+                }
+
+                ')' => {
+                    if stack.pop() != Some('(') {
+                        return false;
+                    }
+                }
+
+                '}' => {
+                    if stack.pop() != Some('{') {
+                        return false;
+                    }
+                }
+
+                ']' => {
+                    if stack.pop() != Some('[') {
+                        return false;
+                    }
+                }
+
+                _ => unreachable!(),
             }
         }
 
-        stack.len() == 0
+        stack.is_empty()
     }
 }
 
 fn main() {
-    assert_eq!(Solution::is_valid("()".to_string()), true);
-    assert_eq!(Solution::is_valid("()[]{}".to_string()), true);
-    assert_eq!(Solution::is_valid("(]".to_string()), false);
-    assert_eq!(Solution::is_valid("([])".to_string()), true);
-    assert_eq!(Solution::is_valid("([)]".to_string()), false);
+    assert!(Solution::is_valid("()".to_string()));
+    assert!(Solution::is_valid("()[]{}".to_string()));
+    assert!(!Solution::is_valid("(]".to_string()));
+    assert!(Solution::is_valid("([])".to_string()));
+    assert!(!Solution::is_valid("([s]".to_string()));
+
     println!("All tests passed!");
 }
