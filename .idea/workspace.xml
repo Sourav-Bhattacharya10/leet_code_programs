@@ -12,7 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08e6392c-0f5f-4959-b7ac-1e00de90daed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/20_valid_parentheses.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,17 +69,22 @@
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/run/media/souravbhattacharya/38c52b45-51f2-48ac-b8d5-6f0a14a4c54f/souravbhattacharya/Documents/Zed_Projects/Rust_Projects/leet_code_programs",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
     "org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon": "",
+    "org.rust.disableDetachedFileInspection/run/media/souravbhattacharya/38c52b45-51f2-48ac-b8d5-6f0a14a4c54f/souravbhattacharya/Documents/Zed_Projects/Rust_Projects/leet_code_programs/src/20_valid_parentheses.rs": "true",
+    "org.rust.disableDetachedFileInspection/run/media/souravbhattacharya/38c52b45-51f2-48ac-b8d5-6f0a14a4c54f/souravbhattacharya/Documents/Zed_Projects/Rust_Projects/leet_code_programs/src/3_longest_non_repeating_substring.rs": "true",
     "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "actions.on.save",
+    "settings.editor.selected.configurable": "editor.preferences.completion.inline",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Cargo.Run hands_on">
-    <configuration name="Run hands_on" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
+  <component name="RunManager">
+    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
+      <option name="buildProfileId" value="dev" />
       <option name="command" value="run --bin main2" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
@@ -94,27 +101,6 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test hands_on" type="CargoCommandRunConfiguration" factoryName="Cargo Command">
-      <option name="command" value="test --workspace" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <envs />
-      <option name="emulateTerminal" value="true" />
-      <option name="channel" value="DEFAULT" />
-      <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
-      <option name="withSudo" value="false" />
-      <option name="buildTarget" value="REMOTE" />
-      <option name="backtrace" value="SHORT" />
-      <option name="isRedirectInput" value="false" />
-      <option name="redirectInputPath" value="" />
-      <method v="2">
-        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Cargo.Run hands_on" />
-      <item itemvalue="Cargo.Test hands_on" />
-    </list>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
@@ -132,6 +118,7 @@
       <updated>1748705917381</updated>
       <workItem from="1748705918614" duration="3573000" />
       <workItem from="1778860814876" duration="167000" />
+      <workItem from="1779606996719" duration="2366000" />
     </task>
     <servers />
   </component>

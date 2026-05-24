@@ -7,4 +7,4 @@ edition = "2024"
 
 [[bin]]
 name = "main2"
-path = "src/14_longest_common_prefix.rs"
+path = "src/20_valid_parentheses.rs"
