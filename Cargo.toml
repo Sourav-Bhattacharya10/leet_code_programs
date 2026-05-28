@@ -7,4 +7,4 @@ edition = "2024"
 
 [[bin]]
 name = "main2"
-path = "src/20_valid_parentheses.rs"
+path = "src/21_merge_two_sorted_list.rs"
