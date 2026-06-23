@@ -12,8 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08e6392c-0f5f-4959-b7ac-1e00de90daed" name="Changes" comment="Ran cargo clippy to fix code smells">
-      <change afterPath="$PROJECT_DIR$/src/21_merge_two_sorted_list.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hands_on.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hands_on.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/26_remove_duplicates.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
     </list>
@@ -51,6 +50,9 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="o9w43ebz" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -62,6 +64,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Cargo.Run hands_on.executor": "Debug",
+    "Cargo.Run leet_code_programs.executor": "Run",
+    "Cargo.Run main2.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -82,11 +86,46 @@
     "org.rust.disableDetachedFileInspection/run/media/souravbhattacharya/38c52b45-51f2-48ac-b8d5-6f0a14a4c54f/souravbhattacharya/Documents/Zed_Projects/Rust_Projects/leet_code_programs/src/3_longest_non_repeating_substring.rs": "true",
     "org.rust.disableDetachedFileInspection/run/media/souravbhattacharya/38c52b45-51f2-48ac-b8d5-6f0a14a4c54f/souravbhattacharya/Documents/Zed_Projects/Rust_Projects/leet_code_programs/tests/21_merge_two_sorted_list.rs": "true",
     "org.rust.first.attach.projects": "true",
-    "settings.editor.selected.configurable": "editor.preferences.completion.inline",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cargo.Run main2">
+    <configuration name="Run leet_code_programs" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package leet_code_programs --bin leet_code_programs" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run main2" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="buildProfileId" value="dev" />
+      <option name="command" value="run --package leet_code_programs --bin main2" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
       <option name="buildProfileId" value="dev" />
       <option name="command" value="run --bin main2" />
@@ -105,6 +144,12 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Run main2" />
+        <item itemvalue="Cargo.Run leet_code_programs" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
@@ -124,7 +169,8 @@
       <workItem from="1778860814876" duration="167000" />
       <workItem from="1779606996719" duration="2366000" />
       <workItem from="1779622171236" duration="1408000" />
-      <workItem from="1779955094344" duration="5523000" />
+      <workItem from="1779955094344" duration="6426000" />
+      <workItem from="1782231101482" duration="4778000" />
     </task>
     <task id="LOCAL-00001" summary="Ran cargo clippy to fix code smells">
       <option name="closed" value="true" />
@@ -154,5 +200,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ran cargo clippy to fix code smells" />
     <option name="LAST_COMMIT_MESSAGE" value="Ran cargo clippy to fix code smells" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/26_remove_duplicates.rs</url>
+          <line>65</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
