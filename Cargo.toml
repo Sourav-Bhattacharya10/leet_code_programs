@@ -7,4 +7,4 @@ edition = "2024"
 
 [[bin]]
 name = "main2"
-path = "src/26_remove_duplicates.rs"
+path = "src/27_remove_element.rs"
